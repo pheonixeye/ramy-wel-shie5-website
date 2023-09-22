@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Autofix - Auto Maintenance & Repair Service</title>
+    <meta name="title" content="Autofix - Auto Maintenance & Repair Service" />
+    <meta
+      name="description"
+      content="This is a vehicle repair html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - material icon font
+  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="128"
+            height="63"
+            alt="autofix home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">الرئيسية</a>
+            </li>
+
+            <li>
+              <a href="#about-id" class="navbar-link">عن المركز</a>
+            </li>
+
+            <li>
+              <a href="#services-id" class="navbar-link">الخدمات</a>
+            </li>
+
+            <li>
+              <a href="#projects-id" class="navbar-link">المشاريع</a>
+            </li>
+
+            <li>
+              <a href="#contact-id" class="navbar-link">التواصل</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn-primary">
+          <span class="span">احصل على سعر</span>
+
+          <span class="material-symbols-rounded">arrow_backward</span>
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="toggle menu"
+          data-nav-toggler
+        >
+          <span class="nav-toggle-icon icon-1"></span>
+          <span class="nav-toggle-icon icon-2"></span>
+          <span class="nav-toggle-icon icon-3"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          id="home-id"
+          class="hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="section-subtitle :dark">
+                فريق كامل متخصص فقط في الرينو
+              </p>
+
+              <h1 class="h1 section-title">
+                خدمة صيانة وإصلاح كل موديلات الرينو
+              </h1>
+
+              <p class="section-text">
+                - أفضل خدمة احترافية لصيانة عربيتك و أفضل معاملة لك و لعربيتك -
+                الدقة في كل عملية صيانة - الكشف بأحدث الأجهزة كمبيوتر و ميكانيكا
+                و عفشة - قطع غيار جديد او استيراد - الدفع بجميع بطاقات الائتمان
+              </p>
+
+              <a href="#services-id" class="btn">
+                <span class="span">خدماتنا</span>
+
+                <span class="material-symbols-rounded">arrow_backward</span>
+              </a>
+            </div>
+
+            <figure class="hero-banner" style="--width: 1228; --height: 789">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="1228"
+                height="789"
+                alt="red motor vehicle"
+                class="move-anim"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          id="services-id"
+          class="section service has-bg-image"
+          aria-labelledby="service-label"
+          style="background-image: url('./assets/images/service-bg.jpg')"
+        >
+          <div class="container">
+            <p class="section-subtitle :light" id="service-label">خدماتنا</p>
+
+            <h2 class="h2 section-title">
+              متخصصون في الكهرباء و الميكانيكا و الفتيس و العفشة
+            </h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/services-1.png"
+                      width="110"
+                      height="110"
+                      loading="lazy"
+                      alt="Engine Repair"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">الكهرباء</h3>
+
+                  <p class="card-text">
+                    اصلاح و تغيير ضفائر الكهرباء و عيوب طرومبة البنزين
+                  </p>
+
+                  <a href="#" class="btn-link">اعرف اكتر</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/services-2.png"
+                      width="110"
+                      height="110"
+                      loading="lazy"
+                      alt="Brake Repair"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">الفرامل</h3>
+
+                  <p class="card-text">
+                    اصلاح و تغيير و صيانة الفرامل و التيل و الطنابير
+                  </p>
+
+                  <a href="#" class="btn-link">المزيد</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/services-3.png"
+                      width="110"
+                      height="110"
+                      loading="lazy"
+                      alt="Tire Repair"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">الماتور</h3>
+
+                  <p class="card-text">
+                    اصلاح كل العيوب الميكانيكية - شورت بلوك - تغيير زيوت و فلاتر
+                  </p>
+
+                  <a href="#" class="btn-link">اعرف اكتر</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/services-4.png"
+                      width="110"
+                      height="110"
+                      loading="lazy"
+                      alt="Battery Repair"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">البطاريات</h3>
+
+                  <p class="card-text">
+                    صيانة البطاريات و شحن و اصلاح و تغيير الدينامو
+                  </p>
+
+                  <a href="#" class="btn-link">اعرف اكتر</a>
+                </div>
+              </li>
+
+              <li class="service-banner">
+                <img
+                  src="./assets/images/services-5.png"
+                  width="646"
+                  height="380"
+                  loading="lazy"
+                  alt="Red Car"
+                  class="move-anim"
+                />
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <figure class="card-icon">
+                    <img
+                      src="./assets/images/services-6.png"
+                      width="110"
+                      height="110"
+                      loading="lazy"
+                      alt="Steering Repair"
+                    />
+                  </figure>
+
+                  <h3 class="h3 card-title">الفتيس</h3>
+
+                  <p class="card-text">
+                    صيانة و اصلاح و تغيير الفتيس مانوال و اوتوماتيك
+                  </p>
+
+                  <a href="#" class="btn-link">اعرف اكتر</a>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn">
+              <span class="span">كل الخدمات</span>
+
+              <span class="material-symbols-rounded">arrow_backward</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          id="about-id"
+          class="section about has-before"
+          aria-labelledby="about-label"
+        >
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.png"
+                width="540"
+                height="540"
+                loading="lazy"
+                alt="vehicle repire equipments"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle :dark">عن المركز</p>
+
+              <h2 class="h2 section-title">
+                أفضل معاملة احترافية و أفضل خدمة لصيانة عربيتك
+              </h2>
+
+              <p class="section-text">
+                نحن نقدم خدمة رعاية كاملة للسيارات من الصيانة الروتينية الموصى
+                بها للتاجر لإكمال التشخيص وإصلاح السيارات كامل الخدمة. نحن نعلم
+                أن السمعة مبنية «عميل واحد في كل مرة» ونحن نقدر عملك.
+              </p>
+
+              <p class="section-text">
+                نحن نقدم الخدمة ببساطة لا يمكن مطابقتها بقيم لا يمكن التغلب
+                عليها. ميكانيكينا هم الأفضل في هذا المجال، ويعود كل عميل من
+                عملانا إلى الطريق مع راحة البال التي قام بها الخبراء المعتمدون
+                بكل خدمة على سيارتهم أو شاحنتهم أو سيارتهم الرياضية متعددة
+                الاستخدامات
+              </p>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <p><strong class="display-1 strong">٢٠٠٠</strong> عميل</p>
+                </li>
+
+                <li class="about-item">
+                  <p><strong class="display-1 strong">٢٥+</strong> فني محترف</p>
+                </li>
+
+                <li class="about-item">
+                  <p>
+                    <strong class="display-1 strong">٢٠+</strong> سنة في السوق
+                  </p>
+                </li>
+
+                <li class="about-item">
+                  <p>
+                    <strong class="display-1 strong">٩٩%</strong>
+                    نسبة رضا
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #WORK
+      -->
+
+        <section
+          id="projects-id"
+          class="section work"
+          aria-labelledby="work-label"
+        >
+          <div class="container">
+            <p class="section-subtitle :light" id="work-label">
+              من اعمال المركز
+            </p>
+
+            <h2 class="h2 section-title">كهرباء و ميكانيكا و عفشة</h2>
+
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="work-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 406"
+                  >
+                    <img
+                      src="./assets/images/work-1.jpg"
+                      width="350"
+                      height="406"
+                      loading="lazy"
+                      alt="Engine Repair"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">ميكانيكا</p>
+
+                    <h3 class="h3 card-title">اصلاح الماتور</h3>
+
+                    <a href="#" class="card-btn">
+                      <span class="material-symbols-rounded"
+                        >arrow_backward</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="work-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 406"
+                  >
+                    <img
+                      src="./assets/images/work-2.jpg"
+                      width="350"
+                      height="406"
+                      loading="lazy"
+                      alt="Car Tyre change"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">عفشة</p>
+
+                    <h3 class="h3 card-title">تغيير و اصلاح العفشة</h3>
+
+                    <a href="#" class="card-btn">
+                      <span class="material-symbols-rounded"
+                        >arrow_backward</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="work-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 406"
+                  >
+                    <img
+                      src="./assets/images/work-3.jpg"
+                      width="350"
+                      height="406"
+                      loading="lazy"
+                      alt="Battery Adjust"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">كهرباء</p>
+
+                    <h3 class="h3 card-title">اصلاح عيوب الكهرباء</h3>
+
+                    <a href="#" class="card-btn">
+                      <span class="material-symbols-rounded"
+                        >arrow_backward</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer id="contact-id" class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.png"
+                width="128"
+                height="63"
+                alt="autofix home"
+              />
+            </a>
+
+            <p class="footer-text">تابعونا علي قنوات التواصل الاجتماعي</p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./assets/images/facebook.svg" alt="facebook" />
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./assets/images/instagram.svg" alt="instagram" />
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./assets/images/twitter.svg" alt="twitter" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="h3">مواعيد العمل</p>
+            </li>
+
+            <li>
+              <p class="p">السبت - الجمعة</p>
+
+              <span class="span">١٠ صباحا حتي ١٠ مساء</span>
+            </li>
+
+            <li>
+              <p class="p">الاحد</p>
+
+              <span class="span">عطلة</span>
+            </li>
+
+            <!-- <li>
+              <p class="p">Friday – Saturday</p>
+
+              <span class="span">12.00 – 14.45</span>
+            </li> -->
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="h3">التواصل</p>
+            </li>
+
+            <li>
+              <a href="tel:+01117011346" class="footer-link">
+                <span class="material-symbols-rounded">call</span>
+
+                <span class="span">01117011346</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@autofix.com" class="footer-link">
+                <span class="material-symbols-rounded">mail</span>
+
+                <span class="span">info@autofix.com</span>
+              </a>
+            </li>
+
+            <li>
+              <address class="footer-link address">
+                <span class="material-symbols-rounded">location_on</span>
+
+                <a
+                  href="https://maps.app.goo.gl/aFFkQVX4zDZdgG1G6"
+                  target="_blank"
+                >
+                  <span class="span"
+                    >صقر قريش - شارع ١٠٦ - عمارة ١٠٤ - المعادى - بالقرب من مكتب
+                    بريد صقر قريش
+                  </span>
+                </a>
+              </address>
+            </li>
+          </ul>
+        </div>
+
+        <img
+          src="./assets/images/footer-shape-3.png"
+          width="637"
+          height="173"
+          loading="lazy"
+          alt="Shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">تصميم بواسطة - د / كريم زاهر</p>
+
+          <img
+            src="./assets/images/footer-shape-2.png"
+            width="778"
+            height="335"
+            loading="lazy"
+            alt="Shape"
+            class="shape shape-2"
+          />
+
+          <img
+            src="./assets/images/footer-shape-1.png"
+            width="805"
+            height="652"
+            loading="lazy"
+            alt="Red Car"
+            class="shape shape-1 move-anim"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
