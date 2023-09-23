@@ -1,6 +1,4 @@
-'use strict';
-
-
+"use strict";
 
 /**
  * MOBILE NAVBAR TOGGLE
@@ -13,3 +11,7 @@ navToggler.addEventListener("click", function () {
   navbar.classList.toggle("active");
   this.classList.toggle("active");
 });
+
+/**
+TODO: ADD MODALS 
+ */
